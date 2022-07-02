@@ -26,7 +26,7 @@ public class PomDemo {
 	}
 
 	@Test
-	public void c_logout() throws InterruptedException
+	public void c_logout() throws InterruptedException 
 	{
 		driver.findElement(By.id("react-burger-menu-btn")).click();
 		Thread.sleep(2000);
